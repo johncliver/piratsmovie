@@ -1644,10 +1644,6 @@ function displayMovies(movies) {
       appBar.setAttribute('style', 'position:fixed;background-color:black;width: 100%;height: 55px;top:0;padding:10px;z-index:1;');
       appBar.append(back, title);
 
-      let filteredMovies = movie;
-
-        filteredMovies = movie.filter((item) => item.category === category);
-
       newBody.append(appBar, iframe, episodesContainer, ads, resultContainer);
     }
 
