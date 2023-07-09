@@ -122,13 +122,6 @@ const movie = [
     episodes: []
   },
   {
-    img: 'https://pics.filmaffinity.com/Voy_a_pasaarmelo_bien-142238169-large.jpg',
-    title: 'Voy a pasármelo bien(2022) pasarmelo',
-    category: 'movie',
-    iframe: '//pelisplay.io/play?id=MTY0NDYx&option=latin',
-    episodes: []
-  },
-  {
     img: 'https://pics.filmaffinity.com/vikings_valhalla-128945489-mmed.jpg',
     title: 'Vikingos: Valhalla (2022)',
     category: 'serie',
