@@ -1,1 +1,58 @@
-<!DOCTYPE html><html lang="en"><head><link rel="shortcut icon" href="piratmovieFavicon.ico" type="image/x-icon"><meta charset="UTF-8"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>piratsmovie</title></head><body><div class="menu"><div style="position: fixed;padding: 6px;top: 0;cursor: pointer;" id="menu"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/></svg></div><h1>Piratsmovie🏴‍☠️</h1><menu style="display: none;"><form id="search-form"><input type="text" id="search-input" placeholder="Buscar por título o categoría"><button type="submit">Buscar</button></form><ul id="category-buttons"><li class="category-button" data-category="all" id="all" style="color: red;">Home</li><li class="category-button" data-category="movie" id="movie">Movie</li><li class="category-button" data-category="serie" id="serie">Series</li><li class="category-button" data-category="anime" id="anime">Anime</li></div></menu></div><center id="result"></center><script src="main.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="shortcut icon"
+    href="piratmovieFavicon.ico"
+    type="image/x-icon">
+  <meta charset="UTF-8">
+  <link rel="preconnect"
+    href="https://fonts.googleapis.com">
+  <link rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet"
+    href="style.css">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+  <title>piratsmovie</title>
+</head>
+
+<body>
+  <div class="menu">
+  <div style="position: fixed;padding: 6px;top: 0;cursor: pointer;" id="menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+    </svg>
+  </div>
+  <h1>Piratsmovie🏴‍☠️</h1>
+  <menu style="display: none;">
+    <form id="search-form">
+      <input type="text"
+        id="search-input"
+        placeholder="Buscar por título o categoría">
+      <button type="submit">Buscar</button>
+    </form>
+    
+    <ul id="category-buttons">
+      <li class="category-button"
+        data-category="all" id="all" style="color: red;">Home</li>
+      <li class="category-button"
+        data-category="movie" id="movie">Movie</li>
+      <li class="category-button"
+        data-category="serie" id="serie">Series</li>
+      <li class="category-button"
+        data-category="anime" id="anime">Anime</li>
+      <!-- <li style="color: blue;margin-top: 30px;font-size: 20px;">Facebook</li> -->
+    </div>
+  </menu>
+</div>
+  <center id="result"></center>
+  <script src="main.js"></script>
+
+</body>
+
+</html>
